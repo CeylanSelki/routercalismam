@@ -3,6 +3,7 @@ import Anasayfa from "./companents/Anasayfa";
 import Hakkimizda from "./companents/hakkimizda";
 import Iletisim from "./companents/Iletisim";
 import Kategori from "./companents/Kategori";
+import KategoriDetail from "./companents/KategoriDetail";
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
       <Route path="/hakkimizda" element={<Hakkimizda />} />
       <Route path="/iletisim" element={<Iletisim />} />
       <Route path="/kategori" element={<Kategori />} />
+      <Route path="/kategori/:id" element={<KategoriDetail />} />
         
       <Route />
     </Routes>

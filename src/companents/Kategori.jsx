@@ -4,7 +4,7 @@ export default function Kategori() {
         <h1>Kategori</h1>
         <Link to="/kategori/1">Elektrik</Link>
         <Link to="/kategori/2">Tekstil</Link>
-        <Link to="/kozmetik/3">Kozmetik</Link>
+        <Link to="/kategori/3">Kozmetik</Link>
     </>
     )
 
