@@ -5,10 +5,13 @@ export default function MainLayout() {
         <>
         <nav>
         <ul>
-            <li><Link to="/">Ana Sayfa</Link></li>
-            <li><Link to="/hakkimizda">Hakkimizda</Link></li>
-            <li><Link to="/iletisim">İletisim</Link></li>
-            <li><Link to="/kategori">Kategori</Link></li>
+            <li><Link to="/">KAT PLANI</Link></li>
+            <li><Link to="/Salon">SALON</Link></li>
+            <li><Link to="/YatakOdasi">YATAK ODASI</Link></li>
+            <li><Link to="/CocukOdasi">ÇOCUK ODASI</Link></li>
+            <li><Link to="/Mutfak">MUTFAK</Link></li>
+            <li><Link to="/GiyinmeOdasi">GİYİNME ODASI</Link></li>
+            <li><Link to="/Banyo">BANYO</Link></li>
         </ul>
         </nav>
         <Outlet />

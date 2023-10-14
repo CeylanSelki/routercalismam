@@ -1,10 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import Anasayfa from "../companents/Anasayfa";
 import MainLayout from "../layout";
-import Kategori from "../companents/Kategori";
-import Hakkimizda from "../companents/hakkimizda";
-import Iletisim from "../companents/Iletisim";
-import KategoriDetail from "../companents/KategoriDetail";
+import Salon from "../companents/Salon";
+import KatPlani from "../companents/KatPlani";
+import YatakOdasi from "../companents/YatakOdasi"
+import CocukOdasi from "../companents/CocukOdasi";
+import Mutfak from "../companents/Mutfak";
+import GiyinmeOdasi from "../companents/GiyinmeOdasi";
+import Banyo from "../companents/Banyo";
 
 
 export const routes = createBrowserRouter([{
@@ -13,23 +15,31 @@ export const routes = createBrowserRouter([{
     children: [
         {
             index: true,
-            element: <Anasayfa />
+            element: <KatPlani />
         },
         {
-            path: "/hakkimizda",
-            element: <Hakkimizda />
+            path: "/Salon",
+            element: <Salon/>
         },
         {
-            path: "/iletisim",
-            element: <Iletisim />
+            path: "/YatakOdasi",
+            element: <YatakOdasi />
         },
         {
-            path: "/kategori",
-            element: <Kategori />
+            path: "/CocukOdasi",
+            element: <CocukOdasi />
         },
         {
-            path: "/kategoridetail",
-            element: <KategoriDetail />
+            path: "/Mutfak",
+            element: <Mutfak />
+        },
+        {
+            path: "/GiyinmeOdasi",
+            element: <GiyinmeOdasi />
+        },
+        {
+            path: "/Banyo",
+            element: <Banyo />
         },
     ]
   
